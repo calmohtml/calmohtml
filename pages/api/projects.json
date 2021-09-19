@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Alma-Mate",
+    "image": "almamate.png",
+    "stack": "HTML, CSS, JavaScript, Node & Express",
+    "slug": "alma-mate",
+    "difficulty": "Hard",
+    "description": "A e-commerce orientated to sell articles related with mate, made with Node, Express, and MySQL as Backend, and HTML, CSS and JavaScript as Frontend.",
+    "github": "https://github.com/calmohtml/alma-mate",
+    "demo": "https://github.com/calmohtml/alma-mate"
+  },
+  {
+    "title": "Breaking Bad API",
+    "image": "logoBreakingBad.png",
+    "stack": "HTML, Sass & JavaScript",
+    "slug": "breaking-bad-api",
+    "difficulty": "Easy",
+    "description": "A web app that displays data from the Breaking Bad API, using the Parcel bundler.",
+    "github": "https://github.com/calmohtml/breaking-bad-api",
+    "demo": "https://calmohtml.github.io/breaking-bad-api/"
+  },
+  {
+    "title": "Crypto-Viewer",
+    "image": "crypto-viewer-react.png",
+    "stack": "React & Sass",
+    "slug": "crypto-viewer-react",
+    "difficulty": "Fairly-Difficult",
+    "description": "Displayer of the main cryptocurrencies, with React and CoinGecko API.",
+    "github": "https://github.com/calmohtml/crypto-viewer-react",
+    "demo": "https://calmohtml.github.io/crypto-viewer-react/"
+  },
+  {
+    "title": "Dark Mode",
+    "image": "dark-mode.png",
+    "stack": "HTML, Sass & JavaScript",
+    "slug": "dark-mode",
+    "difficulty": "Easy",
+    "description": "Simple dark-mode functionality with JavaScript.",
+    "github": "https://github.com/calmohtml/dark-mode",
+    "demo": "https://calmohtml.github.io/dark-mode/"
+  },
+  {
+    "title": "Expense Tracker",
+    "image": "expenseTracker.png",
+    "stack": "HTML, Sass & JavaScript",
+    "slug": "expense-tracker",
+    "difficulty": "Fairly-Difficult",
+    "description": "Expense tracker with Vanilla JavaScript, Sass and Vite as a bundler.",
+    "github": "https://github.com/calmohtml/expense-tracker",
+    "demo": "https://calmohtml.github.io/expense-tracker/"
+  },
+  {
+    "title": "Fake Store App",
+    "image": "store.png",
+    "stack": "React, Sass & React Router",
+    "slug": "fake-store-app",
+    "difficulty": "Hard",
+    "description": "E-commerce with products from API, made with React, React Router and Sass.",
+    "github": "https://github.com/calmohtml/fake-store-app",
+    "demo": "https://calmohtml.github.io/fake-store-app/"
+  },
+  {
+    "title": "Movies App",
+    "image": "movies-app.png",
+    "stack": "HTML, Sass & JavaScript",
+    "slug": "movies-app",
+    "difficulty": "Fairly-Difficult",
+    "description": " A movies app, using the TMDb and JavaScript.",
+    "github": "https://github.com/calmohtml/movies-app",
+    "demo": " https://github.com/calmohtml/movies-app"
+  },
+  {
+    "title": "Super To-Do List",
+    "image": "todolist.png",
+    "stack": "PostgreSQL, Express, React & Node",
+    "slug": "super-to-do-list-pern",
+    "difficulty": "Hard",
+    "description": "To-Do List with PostgreSQL, Express, and Node as Backend, and React as Frontend.",
+    "github": "https://github.com/calmohtml/super-to-do-list-pern",
+    "demo": "https://github.com/calmohtml/super-to-do-list-pern"
+  }
+]
