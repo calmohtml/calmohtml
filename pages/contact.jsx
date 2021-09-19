@@ -24,6 +24,13 @@ const Contact = () => {
     margin: 2rem 0;
   `;
 
+  const EmailContactContainer = styled.section`
+    border: 0.2rem solid var(--white);
+    border-radius: 0.4rem;
+    box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.9);
+    background: var(--light-blue);
+  `;
+
   const StartLink = styled.div`
     display: flex;
     justify-content: center;
@@ -68,9 +75,9 @@ const Contact = () => {
           href="https://www.github.com/calmohtml"
         />
       </Contact>
-      <section>
-        <EmailContact h2="Send me a e-mail" h3="Let's talk" />
-      </section>
+      <EmailContactContainer>
+        <EmailContact h2="Send me a e-mail" h3="Let's talk." />
+      </EmailContactContainer>
       <StartLink>
         <ul>
           <li>

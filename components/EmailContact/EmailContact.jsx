@@ -22,6 +22,7 @@ const EmailContact = ({ h2, h3 }) => {
     h2 {
       font-size: var(--h2);
       color: var(--grey);
+      font-family: var(--text);
     }
     h3 {
       font-size: var(--h3);
@@ -32,6 +33,7 @@ const EmailContact = ({ h2, h3 }) => {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+    margin: 1rem;
 
     input,
     textarea {
@@ -40,10 +42,10 @@ const EmailContact = ({ h2, h3 }) => {
       border: 0.3rem solid var(--white);
       padding: 1rem;
       border-radius: 1.5rem;
+      font-family: var(--titles);
     }
 
     input {
-      width: 30rem;
       margin: 1rem 0;
     }
   `;
