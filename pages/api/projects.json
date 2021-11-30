@@ -78,5 +78,15 @@
     "description": "To-Do List with PostgreSQL, Express, and Node as Backend, and React as Frontend.",
     "github": "https://github.com/calmohtml/super-to-do-list-pern",
     "demo": "https://github.com/calmohtml/super-to-do-list-pern"
+  },
+  {
+    "title": "Sneakers Page",
+    "image": "logo.svg",
+    "stack": "HTML, Styled-Components, React & Node",
+    "slug": "sneakers",
+    "difficulty": "Hard",
+    "description": "Sneakers Page, using React.js and Styled Components",
+    "github": "https://github.com/calmohtml/e-commerce-product-page-main",
+    "demo": "https://fall-limited-edition-sneakers.vercel.app/"
   }
 ]
