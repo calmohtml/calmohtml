@@ -1,18 +1,18 @@
 [
   {
-    "title": "Alma-Mate",
-    "image": "almamate.png",
-    "stack": "HTML, CSS, JavaScript, Node & Express",
-    "slug": "alma-mate",
+    "title": "Blog",
+    "image": "blog.png",
+    "stack": "Next.js, Styled-Components (CSS) & Sanity.io.",
+    "slug": "blog",
     "difficulty": "Hard",
-    "description": "A e-commerce orientated to sell articles related with mate, made with Node, Express, and MySQL as Backend, and HTML, CSS and JavaScript as Frontend.",
-    "github": "https://github.com/calmohtml/alma-mate",
-    "demo": "https://github.com/calmohtml/alma-mate"
+    "description": "My blog.",
+    "github": "https://github.com/calmohtml/blog.calmohtml",
+    "demo": "https://blogcalmohtml.vercel.app/"
   },
   {
     "title": "Breaking Bad API",
     "image": "logoBreakingBad.png",
-    "stack": "HTML, Sass & JavaScript",
+    "stack": "HTML, Sass (CSS) & JavaScript.",
     "slug": "breaking-bad-api",
     "difficulty": "Easy",
     "description": "A web app that displays data from the Breaking Bad API, using the Parcel bundler.",
@@ -22,7 +22,7 @@
   {
     "title": "Crypto-Viewer",
     "image": "crypto-viewer-react.png",
-    "stack": "React & Sass",
+    "stack": "React & Sass (CSS).",
     "slug": "crypto-viewer-react",
     "difficulty": "Fairly-Difficult",
     "description": "Displayer of the main cryptocurrencies, with React and CoinGecko API.",
@@ -32,7 +32,7 @@
   {
     "title": "Dark Mode",
     "image": "dark-mode.png",
-    "stack": "HTML, Sass & JavaScript",
+    "stack": "HTML, Sass (CSS) & JavaScript.",
     "slug": "dark-mode",
     "difficulty": "Easy",
     "description": "Simple dark-mode functionality with JavaScript.",
@@ -42,7 +42,7 @@
   {
     "title": "Expense Tracker",
     "image": "expenseTracker.png",
-    "stack": "HTML, Sass & JavaScript",
+    "stack": "HTML, Sass (CSS) & JavaScript",
     "slug": "expense-tracker",
     "difficulty": "Fairly-Difficult",
     "description": "Expense tracker with Vanilla JavaScript, Sass and Vite as a bundler.",
@@ -52,7 +52,7 @@
   {
     "title": "Fake Store App",
     "image": "store.png",
-    "stack": "React, Sass & React Router",
+    "stack": "React, Sass (CSS) & React Router.",
     "slug": "fake-store-app",
     "difficulty": "Hard",
     "description": "E-commerce with products from API, made with React, React Router and Sass.",
@@ -62,7 +62,7 @@
   {
     "title": "Movies App",
     "image": "movies-app.png",
-    "stack": "HTML, Sass & JavaScript",
+    "stack": "HTML, Sass (CSS) & JavaScript",
     "slug": "movies-app",
     "difficulty": "Fairly-Difficult",
     "description": " A movies app, using the TMDb and JavaScript.",
@@ -82,7 +82,7 @@
   {
     "title": "Sneakers Page",
     "image": "logo.svg",
-    "stack": "HTML, Styled-Components, React & Node",
+    "stack": "HTML, Styled-Components (CSS), React & Node",
     "slug": "sneakers",
     "difficulty": "Hard",
     "description": "Sneakers Page, using React.js and Styled Components",
