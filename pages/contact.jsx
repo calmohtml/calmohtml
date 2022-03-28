@@ -1,4 +1,3 @@
-import styled from "styled-components";
 import Layout from "../components/Layout/Layout";
 import Head from "next/head";
 import SingleContact from "../components/SingleContact/SingleContact";
@@ -8,44 +7,13 @@ import { FaGithubSquare } from "@react-icons/all-files/fa/FaGithubSquare";
 import Link from "next/link";
 import Button from "../components/Button/Button";
 import EmailContact from "../components/EmailContact/EmailContact";
+import {
+  StyledContact,
+  EmailContactContainer,
+  StartLink,
+} from "../styles/ContactStyles";
 
 const Contact = () => {
-  const Contact = styled.section`
-    @media (min-width: 320px) and (max-width: 1024px) {
-      display: grid;
-      grid-gap: 2rem;
-      grid-template-columns: 1fr;
-      margin: 2rem 0;
-    }
-
-    display: grid;
-    grid-gap: 2rem;
-    grid-template-columns: repeat(3, 1fr);
-    margin: 2rem 0;
-  `;
-
-  const EmailContactContainer = styled.section`
-    border: 0.2rem solid var(--white);
-    border-radius: 0.4rem;
-    box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.9);
-    background: var(--light-blue);
-  `;
-
-  const StartLink = styled.div`
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin: 4rem 0;
-
-    ul {
-      li {
-        h3 {
-          font-size: $h3;
-        }
-      }
-    }
-  `;
-
   return (
     <Layout>
       <Head>
@@ -55,7 +23,7 @@ const Contact = () => {
         <title>Contact - Joan Segovia</title>
       </Head>
       <h1>Contact</h1>
-      <Contact>
+      <StyledContact>
         <SingleContact
           h2="My CV"
           h3="All the info that you need."
@@ -74,7 +42,7 @@ const Contact = () => {
           icon={<FaGithubSquare />}
           href="https://www.github.com/calmohtml"
         />
-      </Contact>
+      </StyledContact>
       <EmailContactContainer>
         <EmailContact h2="Send me a e-mail" h3="Let's talk." />
       </EmailContactContainer>

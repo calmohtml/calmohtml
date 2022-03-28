@@ -1,42 +1,11 @@
-import styled from "styled-components";
 import Layout from "../components/Layout/Layout";
 import Head from "next/head";
 import Section from "../components/Section/Section";
 import Link from "next/link";
 import Button from "../components/Button/Button";
+import { AboutMeStyled, TechnologiesLinks } from "../styles/AboutMeStyles";
 
 const AboutMe = () => {
-  const AboutMe = styled.div`
-    @media (min-width: 320px) and (max-width: 768px) {
-      margin-bottom: 0.688rem;
-      grid-template-columns: 1fr;
-    }
-
-    display: grid;
-    grid-gap: 2rem;
-    grid-template-columns: repeat(3, 1fr);
-    margin: 2rem 0;
-  `;
-
-  const TechnologiesLinks = styled.div`
-    @media (min-width: 320px) and (max-width: 768px) {
-      margin-bottom: 5.313rem;
-    }
-
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin: 4rem 0;
-
-    ul {
-      li {
-        h3 {
-          font-size: var(--h3);
-        }
-      }
-    }
-  `;
-
   return (
     <Layout>
       <Head>
@@ -46,7 +15,7 @@ const AboutMe = () => {
         <title>About me - Joan Segovia</title>
       </Head>
       <h1>About me</h1>
-      <AboutMe>
+      <AboutMeStyled>
         <Section
           h3="¿Who are you?"
           h4="I'm Joan, a Frontend Developer trying to get into the labor market, in
@@ -78,7 +47,7 @@ const AboutMe = () => {
             ambitious, and surely late years in doing so. But first to achieve
             it, you have to dream it."
         />
-      </AboutMe>
+      </AboutMeStyled>
       <TechnologiesLinks>
         <ul>
           <li>
