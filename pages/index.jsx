@@ -36,9 +36,12 @@ const Home = () => {
           <HomeText>
             <h1>¡Hi! I&apos;m Joan Segovia 👋🏻</h1>
             <h2>
-              I&apos;m a Frontend Developer, based in Argentina 🇦🇷. I&apos;m
-              also a good design lover, looking foward to get my first
-              experience as a dev in the IT world.
+              I&apos;m a Web Developer. I&apos;m also a good design lover,
+              working in{" "}
+              <a href="https://ibisdev.tech/" target="_blank" rel="noreferrer">
+                IbisDev
+              </a>
+              , based in Argentina 🇦🇷.
             </h2>
             <HomeLinks>
               <ul>

@@ -18,8 +18,7 @@ const AboutMe = () => {
       <AboutMeStyled>
         <Section
           h3="¿Who are you?"
-          h4="I'm Joan, a Frontend Developer trying to get into the labor market, in
-          search of my first experience."
+          h4="I'm Joan, a Web Developer who is currently at IbisDev."
         />
         <Section
           h3="Tell me something about you."
